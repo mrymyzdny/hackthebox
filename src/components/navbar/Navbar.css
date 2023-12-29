@@ -1,0 +1,118 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+.navbar__logo {
+  width: 20rem;
+}
+.navbar__list {
+  display: flex;
+  padding: 2rem;
+}
+.navbar__list-link {
+  margin: 0 1rem;
+  color: var(--secondary-text-color);
+}
+.navbar__list-link:hover {
+  color: var(--white);
+  transition: color 300ms ease-in;
+}
+.navbar__list-item--mobile-only {
+  display: none;
+}
+.navbar__desktop-btns {
+  display: flex;
+  align-items: center;
+}
+.signin-link {
+  color: var(--secondary-text-color);
+}
+.signin-link:hover {
+  color: var(--white);
+  transition: color 300ms ease-in;
+}
+.getstarted-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12.5rem;
+  height: 4.5rem;
+  margin-left: 1.5rem;
+  color: #131d2b;
+  background-color: var(--primary-color);
+}
+
+/* Mobile navbar */
+.mobile-nav {
+  position: fixed;
+  display: none;
+  background-color: var(--white);
+  color: var(--secondary-text-color);
+  top: 6.8rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.mobile-nav__list-item {
+  padding: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-nav__list-link {
+  color: var(--secondary-text-color);
+}
+.mobile-nav__list-link:hover,
+.mobile-nav__list-item:hover {
+  color: #131d2b;
+}
+
+/*  Mobile Icon */
+
+.navbar__toggle-icon {
+  display: none;
+  width: 2.2rem;
+  height: 0.2rem;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.navbar__toggle-line {
+  position: relative;
+  transition: all 100ms ease-in-out;
+}
+.navbar__toggle-line,
+.navbar__toggle-line::before,
+.navbar__toggle-line::after {
+  content: "";
+  position: absolute;
+  width: 2.2rem;
+  height: 0.2rem;
+  border-radius: 0.3rem;
+  background-color: var(--white);
+}
+.navbar__toggle-line::before {
+  position: absolute;
+  top: 0.6rem;
+  transition: all 300ms ease-in-out;
+}
+.navbar__toggle-line::after {
+  position: absolute;
+  bottom: 0.6rem;
+  transition: all 300ms ease-in-out;
+}
+
+.navbar__toggle-icon--open .navbar__toggle-line {
+  background-color: transparent;
+}
+
+.navbar__toggle-icon--open .navbar__toggle-line::before {
+  transform: translateY(-0.6rem) rotate(45deg);
+}
+.navbar__toggle-icon--open .navbar__toggle-line::after {
+  transform: translateY(0.6rem) rotate(-45deg);
+}

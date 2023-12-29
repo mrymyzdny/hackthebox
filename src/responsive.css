@@ -1,0 +1,155 @@
+@media screen and (min-width: 992px) {
+  /* Blogs */
+  .blog-banner {
+    width: 100%;
+  }
+
+  /* Othe Pages */
+  .box-2 {
+    border-left: 1px solid var(--ligth-gray);
+    border-right: 1px solid var(--ligth-gray);
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  /* Blogs */
+  .blog-banner__img,
+  .blog-banner__caption {
+    width: 35rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* Header */
+  .header-cart__caption,
+  .second-row-header-cart__caption {
+    font-size: 1.5rem;
+  }
+  .header-cart__link,
+  .second-row-header-cart__link {
+    font-size: 1.5rem;
+  }
+
+  /* Blogs */
+  .blog-banner__img,
+  .blog-banner__caption {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* Navbar */
+  .navbar__list {
+    display: none;
+  }
+  .navbar__desktop-btns {
+    display: none;
+  }
+  .navbar__toggle-icon {
+    display: flex;
+  }
+  .mobile-nav {
+    display: block;
+  }
+  .mobile-nav__list-item {
+    padding: 1.5rem;
+  }
+
+  /* Header */
+  .header-link__wrapper {
+    margin: 3rem auto;
+  }
+  .header-cart__bg {
+    width: 70rem;
+    top: -5rem;
+  }
+  .header-cart__info {
+    padding: 5rem 1rem 1rem 1rem;
+  }
+  .second-row-header-cart {
+    flex-direction: column;
+  }
+  .second-header-cart__bg {
+    width: 80rem;
+    top: -10rem;
+    left: -10rem;
+  }
+  .second-header-cart__info {
+    text-align: center;
+    margin: 23rem 0 0 0;
+  }
+
+  /* Feature Cart */
+  .about__feature-carts {
+    flex-direction: column;
+  }
+  .feature-cart {
+    width: 100%;
+  }
+
+  /* Blogs */
+  .blogs__body {
+    flex-wrap: wrap;
+  }
+
+  /* Other Pages */
+  .other-pages {
+    flex-direction: column;
+  }
+  .other-page__wrapper {
+    border-bottom: 1px solid var(--ligth-gray);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Header */
+  .first-row-wrapper {
+    flex-direction: column;
+  }
+  .header-cart {
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+  .second-row-header-cart {
+    margin: 0;
+  }
+
+  /* Teams */
+  .teams__report {
+    flex-direction: column;
+  }
+  .teams__reviews {
+    flex-direction: column;
+  }
+  /* Comments */
+  .comments__header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .comments__title {
+    margin: 2rem 0;
+  }
+  .comments__body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Header */
+  .second-row-header-cart__caption {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  /* Header */
+  .header__title {
+    font-size: 4rem;
+  }
+  .second-row-header-cart__caption {
+    padding: 0 10rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

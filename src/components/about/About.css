@@ -1,0 +1,61 @@
+.about {
+  text-align: center;
+  margin-top: 15rem;
+}
+.about__title {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+.about__description {
+  font-size: 2rem;
+  margin: 2rem 0 6rem 0;
+  color: var(--secondary-text-color);
+}
+.about__feature-carts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 3rem;
+}
+.feature-cart {
+  width: 40%;
+  border-radius: 0.8rem;
+  background-color: var(--ligth-gray);
+}
+.feature-cart__img {
+  padding: 1.5rem;
+}
+.feature-cart__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.feature-cart__text {
+  margin: 2rem 0;
+  color: var(--secondary-text-color);
+}
+
+/* Typewriter Styles */
+
+h1 > a {
+  font-family: "Neue Medium";
+  font-weight: bold;
+  font-size: 4.5rem;
+  color: var(--primary-color);
+}
+.typewriter-section {
+  margin: 3rem 0;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: 1px solid var(--ligth-gray);
+}
+.typewriter-section h1 {
+  padding: 5rem 0 2rem 0;
+}
+.typewriter-text {
+  margin-bottom: 5rem;
+}
+.typewriter-text a {
+  text-decoration: underline;
+  color: var(--primary-color);
+}

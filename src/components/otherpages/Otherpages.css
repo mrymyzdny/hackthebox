@@ -1,0 +1,33 @@
+.other-pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secodary-bg-color);
+  border-bottom: 1px solid var(--ligth-gray);
+  overflow: hidden;
+}
+.other-page__wrapper {
+  width: 40rem;
+  padding: 8rem;
+  text-align: center;
+}
+.other-page__title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--white);
+}
+.other-page__text {
+  font-size: 2rem;
+  color: var(--secondary-text-color);
+  margin: 2rem 0 6rem 0;
+}
+.other-page__wrapper span {
+  color: var(--white);
+  font-size: 1.8rem;
+}
+
+/* Hover */
+.other-page__wrapper span:hover {
+  color: var(--primary-color);
+  transition: color 300ms ease-in;
+}

@@ -1,0 +1,40 @@
+.teams-logos div , .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.teams-caption {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 3rem;
+  color: var(--secondary-text-color);
+}
+.teams__report {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--ligth-gray);
+  margin-bottom: 5rem;
+}
+.teams__info {
+  max-width: 90rem;
+  padding: 2rem;
+}
+.teams__text {
+  font-size: 2.4rem;
+  margin-bottom: 5rem;
+}
+.teams__text span {
+  font-weight: bold;
+}
+.teams-link {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.teams__reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 6rem;
+}
